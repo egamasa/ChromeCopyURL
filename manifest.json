@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "CopyURL",
+    "version": "0.1",
+    "icons": {
+        "128": "icon128.png"
+    },
+    "description": "Copy website Title and URL to clipboard",
+    "author": "egamasa",
+
+    "permissions": ["activeTab"],
+
+    "browser_action": {
+        "default_title": "CopyURL",
+        "default_popup": "popup.html"
+    }
+}
